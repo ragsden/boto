@@ -7,4 +7,3 @@ before_install:
 install: pip install --allow-all-external -r requirements.txt
 script: python tests/test.py unit
 cache: true
-
