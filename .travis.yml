@@ -6,4 +6,4 @@ before_install:
   - sudo apt-get install swig
 install: pip install --allow-all-external -r requirements.txt
 script: python tests/test.py unit
-cache: true
+build_image: shippableimages/ubuntu1204_python
