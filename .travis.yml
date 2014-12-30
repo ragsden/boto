@@ -3,8 +3,8 @@ python:
 #  - "2.6"
   - "2.7"
 before_install:
-  - sudo apt-get install swig
   - git config --get "user.name"
+  - sudo apt-get install swig
 install: pip install --allow-all-external -r requirements.txt
 script: python tests/test.py unit
 build_image: shippableimages/ubuntu1204_python
