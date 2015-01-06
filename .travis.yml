@@ -9,3 +9,4 @@ install: pip install --allow-all-external -r requirements.txt
 script: python tests/test.py unit
 #build_image: shippableimages/ubuntu1204_python
 #build_image: circleup/test-builds:sourcing
+commit_container: ragster/test1
